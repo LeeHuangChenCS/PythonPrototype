@@ -1,0 +1,22 @@
+{
+    "$$start" : {
+        "name": "Farmer",
+        "exp": "smiling",
+        "txt": "Hi! How are you doing?",
+        "optName" : "ShowYing",
+        "opts": {
+            "1. I'm doing well!": "1",
+            "2. I'm not doing well.": "2"
+        }
+    },
+    "1" : {
+        "name": "Farmer",
+        "exp": "smiling",
+        "txt": "Well that's great!"
+    },
+    "2" : {
+        "name": "Farmer",
+        "exp": "frowning",
+        "txt": "well that's too bad."
+    }
+}
